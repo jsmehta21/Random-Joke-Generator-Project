@@ -9,9 +9,15 @@ body {
     background-color: #abdbe3;
 }
 
+h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
 .wrapper {
     width: 80vmin;
-    padding: 50px 40px;
+    padding: 20px 20px;
     background-color: #15161a;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -24,7 +30,7 @@ body {
 span {
     display: block;
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 p {
@@ -34,7 +40,7 @@ p {
     text-align: center;
     word-wrap: break-word;
     line-height: 35px;
-    margin: 30px 0;
+    margin: 15px 0;
     opacity: 0;
 }
 
@@ -47,7 +53,7 @@ button {
     display: block;
     background-color: #abdbe3;
     border: 2px solid black;
-    padding: 5px;
+    padding: 15px;
     font-size: 18px;
     color:#171721;
     font-weight: 600;
